@@ -154,3 +154,14 @@ function addTwoNums(a,b) {
 }
 addTwoNums(5, "5")
 console.log("It still works")
+
+//Return values
+function consoleLog(val) {
+    console.log(val)
+    return val
+}
+
+function doubleIt(num) {
+    return num * 2
+}
+doubleIt(10).toString()
